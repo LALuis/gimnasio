@@ -1,0 +1,7 @@
+{
+  "name": "Disfrutando del proceso FIT",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
