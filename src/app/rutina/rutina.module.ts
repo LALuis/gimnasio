@@ -1,20 +1,22 @@
-import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { TabsPageRoutingModule } from './tabs-routing.module';
+import { IonicModule } from '@ionic/angular';
 
-import { TabsPage } from './tabs.page';
+import { RutinaPageRoutingModule } from './rutina-routing.module';
+
+import { RutinaPage } from './rutina.page';
 import { DiaSelectorComponent } from 'src/shared/dia-selector/dia-selector.component';
 
 @NgModule({
   imports: [
-    IonicModule,
     CommonModule,
     FormsModule,
-    TabsPageRoutingModule
+    IonicModule,
+    RutinaPageRoutingModule,
+    DiaSelectorComponent
   ],
-  declarations: [TabsPage]
+  declarations: [RutinaPage]
 })
-export class TabsPageModule {}
+export class RutinaPageModule {}

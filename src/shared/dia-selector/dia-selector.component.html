@@ -1,0 +1,4 @@
+<div style="width: 100%; display: flex; justify-content: center; margin-top: 15px; margin-bottom: 15px;">
+  <ion-button id="open-action-sheet">Seleccione el dia</ion-button>
+  <ion-action-sheet trigger="open-action-sheet" class="dia-selector" header="Seleccione el dia de la semana" [buttons]="actionSheetButtons" (ionActionSheetDidDismiss)="onDiaSeleccionado($event)"></ion-action-sheet>
+</div>

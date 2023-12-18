@@ -24,3 +24,38 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+/* Importando el tema custom que creamos por defecto */
+//@import "./theme/custom_theme.scss"
+
+.tab--titulo {
+  width: 100%;
+  text-align: center;
+}
+
+ion-action-sheet.dia-selector .action-sheet-group {
+  background: #b956e4;
+}
+
+ion-action-sheet.dia-selector .action-sheet-title {
+  color: #fff;
+}
+
+ion-action-sheet.dia-selector .action-sheet-cancel::after {
+  background: #763791;
+}
+
+ion-action-sheet.dia-selector .action-sheet-button,
+ion-action-sheet.dia-selector .action-sheet-button.ion-focused {
+  color: #1b1b1d;
+}
+
+@media (any-hover: hover) {
+  ion-action-sheet.dia-selector .action-sheet-button:hover {
+    color: #1b1d1b;
+  }
+}
+
+ion-action-sheet.dia-selector ion-backdrop {
+  opacity: 0.6;
+}
